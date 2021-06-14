@@ -1,0 +1,41 @@
+body{
+    align-items: center;
+    background-size: cover;
+    background-image: url(../projeto-estrelas/assets/rickandmortybackground.jpeg);
+    font-family: 'Orbitron', sans-serif;
+    overflow: hidden;
+}
+
+.header-logo{
+    margin: 0 90px;
+    width: 250px;
+}
+
+.personagens-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 70px 70px 70px;
+    position: relative;
+}
+
+.personagem-imagem{
+    border: #ffffff 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    width: 250px;
+}
+
+.personagem-nome{
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.rodape-texto{
+    color:#32CD32;
+    font-weight: bold;
+    padding: 70px 50px;
+    text-align: end;
+}
